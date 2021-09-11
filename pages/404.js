@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {useRouter } from "next/router";
+import  Link  from "next/link";
 
 export default function NotFound() {
     const route = useRouter();
