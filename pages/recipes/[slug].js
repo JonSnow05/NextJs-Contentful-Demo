@@ -52,12 +52,12 @@ export default function RecipeDetails({recipe}) {
   return (
     <div>
       <div className="banner">
-        {/* <Image
+        <Image
         src={'https:'+featureImage.fields.file.url}
         width='800'
         height='350'
-        /> */}
-        <img src={`https:${featureImage.fields.file.url}`} style={{height:'350px',width:'800px'}} />
+        />
+        {/* <img src={`https:${featureImage.fields.file.url}`} style={{height:'350px',width:'800px'}} /> */}
       </div>
       <h2>{title}</h2>
       <div className="info">
